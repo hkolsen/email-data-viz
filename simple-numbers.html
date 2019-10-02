@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en">
+
+<head>
+    <title>Data Viz in Email: Simple Numbers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        /* DEFAULT STYLES */
+        
+        #outlook a {
+            padding: 0;
+        }
+        
+        .ReadMsgBody {
+            width: 100%;
+        }
+        
+        .ExternalClass {
+            width: 100%;
+        }
+        
+        .ExternalClass,
+        .ExternalClass span,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+        
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        img {
+            -ms-interpolation-mode: bicubic;
+            display: block;
+            height: auto;
+            border: 0;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        
+        sup {
+            font-size: 50%;
+            line-height: 1;
+            vertical-align: top;
+            mso-text-raise: 30%;
+        }
+        /* ANIMATION */
+        
+        @media screen {
+            @-webkit-keyframes bounceIn {
+                from,
+                20%,
+                40%,
+                60%,
+                80%,
+                to {
+                    -webkit-animation-timing-function: cubic-bezier( 0.215, 0.61, 0.355, 1);
+                    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+                0% {
+                    opacity: 0;
+                    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+                    transform: scale3d(0.3, 0.3, 0.3);
+                }
+                20% {
+                    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                    transform: scale3d(1.1, 1.1, 1.1);
+                }
+                40% {
+                    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+                    transform: scale3d(0.9, 0.9, 0.9);
+                }
+                60% {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+                    transform: scale3d(1.03, 1.03, 1.03);
+                }
+                80% {
+                    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+                    transform: scale3d(0.97, 0.97, 0.97);
+                }
+                to {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+            @keyframes bounceIn {
+                from,
+                20%,
+                40%,
+                60%,
+                80%,
+                to {
+                    -webkit-animation-timing-function: cubic-bezier( 0.215, 0.61, 0.355, 1);
+                    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+                0% {
+                    opacity: 0;
+                    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+                    transform: scale3d(0.3, 0.3, 0.3);
+                }
+                20% {
+                    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                    transform: scale3d(1.1, 1.1, 1.1);
+                }
+                40% {
+                    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+                    transform: scale3d(0.9, 0.9, 0.9);
+                }
+                60% {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+                    transform: scale3d(1.03, 1.03, 1.03);
+                }
+                80% {
+                    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+                    transform: scale3d(0.97, 0.97, 0.97);
+                }
+                to {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+            @-moz-keyframes bounceIn {
+                from,
+                20%,
+                40%,
+                60%,
+                80%,
+                to {
+                    -moz-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+                0% {
+                    opacity: 0;
+                    -moz-transform: scale3d(0.3, 0.3, 0.3);
+                    transform: scale3d(0.3, 0.3, 0.3);
+                }
+                20% {
+                    -moz-transform: scale3d(1.1, 1.1, 1.1);
+                    transform: scale3d(1.1, 1.1, 1.1);
+                }
+                40% {
+                    -moz-transform: scale3d(0.9, 0.9, 0.9);
+                    transform: scale3d(0.9, 0.9, 0.9);
+                }
+                60% {
+                    opacity: 1;
+                    -moz-transform: scale3d(1.03, 1.03, 1.03);
+                    transform: scale3d(1.03, 1.03, 1.03);
+                }
+                80% {
+                    -moz-transform: scale3d(0.97, 0.97, 0.97);
+                    transform: scale3d(0.97, 0.97, 0.97);
+                }
+                to {
+                    opacity: 1;
+                    -moz-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+            @-ms-keyframes bounceIn {
+                from,
+                20%,
+                40%,
+                60%,
+                80%,
+                to {
+                    -ms-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+                0% {
+                    opacity: 0;
+                    -ms-transform: scale3d(0.3, 0.3, 0.3);
+                    transform: scale3d(0.3, 0.3, 0.3);
+                }
+                20% {
+                    -ms-transform: scale3d(1.1, 1.1, 1.1);
+                    transform: scale3d(1.1, 1.1, 1.1);
+                }
+                40% {
+                    -ms-transform: scale3d(0.9, 0.9, 0.9);
+                    transform: scale3d(0.9, 0.9, 0.9);
+                }
+                60% {
+                    opacity: 1;
+                    -ms-transform: scale3d(1.03, 1.03, 1.03);
+                    transform: scale3d(1.03, 1.03, 1.03);
+                }
+                80% {
+                    -ms-transform: scale3d(0.97, 0.97, 0.97);
+                    transform: scale3d(0.97, 0.97, 0.97);
+                }
+                to {
+                    opacity: 1;
+                    -ms-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+            .bounceIn {
+                -webkit-animation-duration: 0.75s;
+                -ms-animation-duration: 0.75s;
+                -moz-animation-duration: 0.75s;
+                animation-duration: 0.75s;
+                -webkit-animation-delay: 1s;
+                -ms-animation-delay: 1s;
+                -moz-animation-delay: 1s;
+                animation-delay: 1s;
+                -webkit-animation-name: bounceIn;
+                -ms-animation-name: bounceIn;
+                -moz-animation-name: bounceIn;
+                animation-name: bounceIn;
+            }
+        }
+        
+        @media only screen and (max-width: 640px) {
+            #MessageViewBody .device-width {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .device-width {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+        }
+    </style>
+
+    <!--[if !mso]><!-->
+    <style type="text/css">
+        @media screen {
+            @font-face {
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: local("Nunito Light"), local("Nunito-Light"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2) format("woff2");
+            }
+            @font-face {
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v11/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format("woff2");
+            }
+            @font-face {
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofA6sKUYevIWzgPDA.woff2) format("woff2");
+            }
+        }
+    </style>
+    <!--<![endif]-->
+
+    <!--[if gte mso 9
+      ]><xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml><!
+    [endif]-->
+    <!--[if mso]>
+      <style type="text/css">
+        	body, span, table, td, h1, h2, h3, p {font-family: Helvetica, Arial, sans-serif !important;}
+        }
+      </style>
+    <![endif]-->
+    <meta name="robots" content="noindex, nofollow" />
+</head>
+
+<body class="body" style="padding:0; margin:0; text-align:center; background-color: #2a2c35;">
+    <table aria-label="Simple Numbers Data Viz in Email" border="0" cellpadding="0" cellspacing="0" lang="en" role="article" style="width: 100%; text-align:center; margin: 0 auto; table-layout: fixed;">
+        <tbody>
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" class="device-width" role="presentation" style="width:400px; max-width: 400px;">
+                        <tbody>
+                            <tr>
+
+                                <td style="font-size: 1px; line-height: 25px;">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="middle">
+                                    <h1 style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 300; margin: 0; font-size: 24px; line-height: 28px; color: #ffffff; margin:0; padding:0;">
+                                        Your account summary <br />in September
+                                    </h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size: 1px; line-height: 15px;">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" class="device-width" role="presentation">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" class="bounceIn" style="border-bottom: 3px solid #c8efe7; padding-bottom: 5px;">
+                                    <h2 style="font-family: 'Nunito Light', 'Nunito-Light', Arial, sans-serif !important; font-weight: 600; font-size: 50px; line-height: 50px; color: #ffffff; margin:0; padding:0;">
+                                        +<sup>$</sup>14.56
+                                    </h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size: 1px; line-height: 5px;" class="">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle" class="">
+                                    <p style="font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; margin: 0; font-size: 16px; line-height: 20px; text-align: center; color: #ffffff;">
+                                        Total new this month <br />for a
+                                        <span style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 600;">total of $60.01</span
+                              >
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
