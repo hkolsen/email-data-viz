@@ -59,12 +59,6 @@
             width: 100% !important;
         }
         
-        sup {
-            font-size: 50%;
-            line-height: 1;
-            vertical-align: top;
-            mso-text-raise: 30%;
-        }
         
         @media only screen and (max-width: 640px) {
             #MessageViewBody .device-width {
@@ -85,21 +79,18 @@
                 font-family: "Nunito";
                 font-style: normal;
                 font-weight: 300;
-                font-display: swap;
                 src: local("Nunito Light"), local("Nunito-Light"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2) format("woff2");
             }
             @font-face {
                 font-family: "Nunito";
                 font-style: normal;
                 font-weight: 400;
-                font-display: swap;
                 src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v11/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format("woff2");
             }
             @font-face {
                 font-family: "Nunito";
                 font-style: normal;
                 font-weight: 600;
-                font-display: swap;
                 src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofA6sKUYevIWzgPDA.woff2) format("woff2");
             }
         }
@@ -123,41 +114,111 @@
     <meta name="robots" content="noindex, nofollow" />
 </head>
 
-<body class="body" style="padding:0; margin:0; text-align:center; background-color: #2a2c35;">
-    <table aria-label="Simple Numbers Data Viz in Email" border="0" cellpadding="0" cellspacing="0" lang="en" role="article" style="width: 100%; text-align:center; margin: 0 auto; table-layout: fixed;">
+<body class="body" style="padding:0; margin:0; background-color: #f4f4f7;">
+    <table align="center" aria-label="Simple Numbers Data Viz in Email" border="0" cellpadding="0" cellspacing="0" class="body" lang="en" role="article" style="width: 100%; text-align:center; margin: 0 auto; table-layout: fixed;">
         <tbody>
             <tr>
-                <td align="center" valign="top">
-                    <table>
-                        <caption>Open Rates</caption>
+                <td style="font-size: 1px; line-height: 25px;">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">     
+                    <table border="0" cellpadding="0" cellspacing="0" class="device-width" role="presentation" style="width:640px; max-width: 640px; margin: 0 auto;" bgcolor="#FFFFFF">
                         <tr>
-                            <th scope="col"></th>
-                            <th scope="col" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400;">Product A</th>
-                            <th scope="col" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400;">Product B</th>
-                            <th scope="col" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400;">Product C</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">Category 1</th>
-                            <td>15%</td>
-                            <td>22%</td>
-                            <td>22%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Category 2</th>
-                            <td>40%</td>
-                            <td>36%</td>
-                            <td>22%</td>
+                            <td valign="top" width="25px" class="mobile-hide"></td>
+                            <td valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" class="device-width" width="100%">
+                                    <caption style="font-family: 'Nunito Light', 'Nunito-Light', Arial, sans-serif !important; font-weight: 300; font-size: 24px; padding: 5px;">Comparison chart</caption>
+                                        <tr height="25" style="line-height: 25px; border: 0;">
+                                            <th scope="col" width="40%"></th>
+                                            <th scope="col" width="20%">
+                                                <h2 style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 600; color: #2a2c35; font-size: 16px; margin:0; padding:0;">Product A</h2> 
+                                            </th>
+                                            <th scope="col" width="20%">
+                                                <h2 style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 600; color: #2a2c35; font-size: 16px; margin:0; padding:0;">Product B</h2>
+                                            
+                                            </th>
+                                            <th scope="col" width="20%">
+                                                <h2 style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 600; color: #2a2c35; font-size: 16px; margin:0; padding:0;">Product C
+                                                </h2>
+                                            </th>
+                                        </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <td align="left" colspan="4" style="background-color: #f4f4f7; padding: 5px;"><h3 style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 600; color: #2a2c35; font-size: 16px; margin:0; padding:5px;">Pricing</h3></td>
+                                        </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <th scope="row" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: left; padding: 5px;">Plan cost</th>
+                                            <td style="font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">$</td>
+                                            <td style="font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">$$</td>
+                                            <td style="font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">$$$</td>
+                                        </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <td align="left" colspan="4" style="background-color: #f4f4f7; padding: 5px;"><h3 style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 600; color: #2a2c35; font-size: 16px; margin:0; padding:5px;">Features</h3></td>
+                                        </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <th scope="row" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: left; padding: 5px;">Feature set category 2</th>
+                                            <td style="background-color: #e3f7f3; font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">&#x2714;</td>
+                                            <td style="background-color: #e3f7f3; font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">&#x2714;</td>
+                                            <td style="background-color: #c8efe7; font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">&#x2714;</td>
+                                        </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <th scope="row" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: left; padding: 5px;">Feature set category 2</th>
+                                            <td></td>
+                                            <td style="background-color: #e3f7f3; font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">&#x2714;</td>
+                                            <td style="background-color: #c8efe7; font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">&#x2714;</td>
+                                        </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <th scope="row" style="font-family: 'Nunito SemiBold', 'Nunito-SemiBold', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: left; padding: 5px;">Feature set category 3</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td style="background-color: #c8efe7; font-family: 'Nunito Regular', 'Nunito-Regular', Arial, sans-serif !important; font-weight: 400; color: #2a2c35; text-align: center; padding: 5px;">&#x2714;</td>
+                                        </tr>
+                                        <tr height="2" style="line-height: 2px;">
+                                            <td align="left" colspan="4" style="background-color: #f4f4f7;">&nbsp;</td>
+                                        </tr>
+                                        <tr height="10" style="line-height: 10px;">
+                                                <td align="left" colspan="4" style="background-color: #ffffff;">&nbsp;</td>
+                                            </tr>
+                                        <tr height="25" style="line-height: 25px;">
+                                            <th scope="row"></th>
+                                            <td align="center" style="padding: 5px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" style="border-radius: 3px;" bgcolor="#d93a5c"><a href="https://codepen.io" target="_blank" style="font-size: 16px; font-family: 'WorkSans-SemiBold', 'Work Sans', Arial, sans-serif !important; font-weight: 600;color:#ffffff; text-decoration: none; text-decoration: none;border-radius: 3px; padding: 4px 6px; border: 1px solid #d93a5c; display: inline-block;">Get started</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="center" style="padding: 5px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" style="border-radius: 3px;" bgcolor="#d93a5c"><a href="https://codepen.io" target="_blank" style="font-size: 16px; font-family: 'WorkSans-SemiBold', 'Work Sans', Arial, sans-serif !important; font-weight: 600;color:#ffffff; text-decoration: none; text-decoration: none;border-radius: 3px; padding: 4px 6px; border: 1px solid #d93a5c; display: inline-block;">Get started</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="center" style="padding: 5px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" style="border-radius: 3px;" bgcolor="#d93a5c"><a href="https://codepen.io" target="_blank" style="font-size: 16px; font-family: 'WorkSans-SemiBold', 'Work Sans', Arial, sans-serif !important; font-weight: 600;color:#ffffff; text-decoration: none; text-decoration: none;border-radius: 3px; padding: 4px 6px; border: 1px solid #d93a5c; display: inline-block;">Get started</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                    </tr>
+                                    <tr height="25" style="line-height: 25px;">
+                                        <td align="left" colspan="4" style="background-color: #ffffff;">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td valign="top" width="25px" class="mobile-hide"></td>
                         </tr>
                     </table>
-
+                </td>
+            <tr>
+                <td style="font-size: 1px; line-height: 25px;">
+                    &nbsp;
                 </td>
             </tr>
         </tbody>
     </table>
-    </td>
-    </tr>
-    </tbody>
-    </table>
 </body>
-
 </html>
