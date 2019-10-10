@@ -1,7 +1,7 @@
 # Data Viz in Email
 This is a collection of accessible data visualization examples for use in email marketing. For more information on data visualization in email, visit my [resources page](https://heidiolsen.com/ll19).
 
-[Effective Storytelling with Data Visualization](social-image.png)
+![Effective Storytelling with Data Visualization](/social-image.png?raw=true)
 
 ## Data Viz Examples
 
