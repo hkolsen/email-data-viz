@@ -67,6 +67,12 @@
             vertical-align: top;
             mso-text-raise: 30%;
         }
+        @media only screen and (max-width: 320px) {
+            .chart-container {
+                width: 300px !important;
+                max-width: 300px !important;
+            }
+        }
     </style>
     <style type="text/css">
         @media (prefers-dark-interface) {
@@ -78,30 +84,31 @@
     </style>
 
     <!--[if !mso]><!-->
-    <style type="text/css">
-        @media screen {
-            @font-face {
-                font-family: "Nunito";
-                font-style: normal;
-                font-weight: 300;
-                src: local("Nunito Light"), local("Nunito-Light"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2) format("woff2");
+        <style type="text/css">
+            @media screen {
+                @font-face {
+                    font-family: "Nunito Light";
+                    font-style: normal;
+                    font-weight: 300;
+                    src: local("Nunito Light"), local("Nunito-Light"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2) format("woff2");
+                    mso-font-alt: 'Arial';
+                }
+                @font-face {
+                    font-family: "Nunito Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v11/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format("woff2");
+                    mso-font-alt: 'Arial';
+                }
+                @font-face {
+                    font-family: "Nunito SemiBold";
+                    font-style: normal;
+                    font-weight: 600;
+                    src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofA6sKUYevIWzgPDA.woff2) format("woff2");
+                    mso-font-alt: 'Arial';
+                }
             }
-
-            @font-face {
-                font-family: "Nunito";
-                font-style: normal;
-                font-weight: 400;
-                src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v11/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format("woff2");
-            }
-
-            @font-face {
-                font-family: "Nunito";
-                font-style: normal;
-                font-weight: 600;
-                src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofA6sKUYevIWzgPDA.woff2) format("woff2");
-            }
-        }
-    </style>
+        </style>
     <!--<![endif]-->
 
     <!--[if gte mso 9
@@ -123,7 +130,7 @@
 
 <body class="body" style="padding:0; margin:0; text-align:center; background-color: #2a2c35;">
     <table aria-label="Area Chart in Email" lang="en"
-        style="width: 320px; max-width: 320px; table-layout: fixed; margin: 20px auto; border-collapse: collapse">
+        style="width: 320px; max-width: 320px; table-layout: fixed; margin: 20px auto; border-collapse: collapse" class="chart-container">
         <tbody>
             <tr>
                 <td colspan="7" align="left" valign="middle">
@@ -164,32 +171,32 @@
 
             <tr>
                 <td class="day"
-                    style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
+                    width="40" style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
                 </td>
                 <td class="day"
-                    style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
+                    width="40" style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
                 </td>
-                <td class="day" title="October 1st, 2019: 51"
+                <td class="day" width="40" title="October 1st, 2019: 51"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #d384b7; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 2nd, 2019: 73"
+                <td class="day" width="40" title="October 2nd, 2019: 73"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #ba3e8f; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 3rd, 2019: 71"
+                <td class="day" width="40" title="October 3rd, 2019: 71"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#ba3e8f; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 4th, 2019: 46"
+                <td class="day" width="40" title="October 4th, 2019: 46"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #d384b7; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 5th, 2019: 12"
+                <td class="day" width="40" title="October 5th, 2019: 12"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #f6e7f1; height: 20px">&nbsp;</span>
@@ -197,37 +204,37 @@
             </tr>
 
             <tr style="font-weight: 300">
-                <td class="day" title="October 6th, 2019: 24"
+                <td class="day" width="40" title="October 6th, 2019: 24"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 7th, 2019: 27"
+                <td class="day" width="40" title="October 7th, 2019: 27"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 8th, 2019: 43"
+                <td class="day" width="40" title="October 8th, 2019: 43"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#bf609e; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 9th, 2019: 68"
+                <td class="day" width="40" title="October 9th, 2019: 68"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #ba3e8f; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 10th, 2019: 23"
+                <td class="day" width="40" title="October 10th, 2019: 23"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 11th, 2019: 15"
+                <td class="day" width="40" title="October 11th, 2019: 15"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #f6e7f1; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 12th, 2019: 10"
+                <td class="day" width="40" title="October 12th, 2019: 10"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #f6e7f1; height: 20px">&nbsp;</span>
@@ -235,37 +242,37 @@
             </tr>
 
             <tr style="font-weight: 300">
-                <td class="day" title="October 13th, 2019: 19"
+                <td class="day" width="40" title="October 13th, 2019: 19"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 14th, 2019: 32"
+                <td class="day" width="40" title="October 14th, 2019: 32"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #bf609e; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 15th, 2019: 23"
+                <td class="day" width="40" title="October 15th, 2019: 23"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 16th, 2019: 62"
+                <td class="day" width="40" title="October 16th, 2019: 62"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #ba3e8f; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 17th, 2019: 34"
+                <td class="day" width="40" title="October 17th, 2019: 34"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#bf609e; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 18th, 2019: 12"
+                <td class="day" width="40" title="October 18th, 2019: 12"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #f6e7f1; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 19th, 2019: 49"
+                <td class="day" width="40" title="October 19th, 2019: 49"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #bf609e; height: 20px">&nbsp;</span>
@@ -273,37 +280,37 @@
             </tr>
 
             <tr style="font-weight: 300">
-                <td class="day" title="October 20th, 2019: 24"
+                <td class="day" width="40" title="October 20th, 2019: 24"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #d384b7; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 21st, 2019: 21"
+                <td class="day" width="40" title="October 21st, 2019: 21"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #bf609e; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 22nd, 2019: 12"
+                <td class="day" width="40" title="October 22nd, 2019: 12"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 23rd, 2019: 17"
+                <td class="day" width="40" title="October 23rd, 2019: 17"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #d384b7; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 24th, 2019: 10"
+                <td class="day" width="40" title="October 24th, 2019: 10"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 25th, 2019: 58"
+                <td class="day" width="40" title="October 25th, 2019: 58"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #bf609e; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 26th, 2019: 28"
+                <td class="day" width="40" title="October 26th, 2019: 28"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #d384b7; height: 20px">&nbsp;</span>
@@ -311,36 +318,36 @@
             </tr>
 
             <tr style="font-weight: 300">
-                <td class="day" title="October 27th, 2019: 18"
+                <td class="day" width="40" title="October 27th, 2019: 18"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 28th, 2019: 35"
+                <td class="day" width="40" title="October 28th, 2019: 35"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #bf609e; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 29th, 2019: 10"
+                <td class="day" width="40" title="October 29th, 2019: 10"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#e9c0da; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 30th, 2019: 62"
+                <td class="day" width="40" title="October 30th, 2019: 62"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color: #ba3e8f; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" title="October 31st, 2019: 27"
+                <td class="day" width="40" title="October 31st, 2019: 27"
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">
                     <span
                         style="width: 100%; font-weight: 300; display: inline-block; background-color:#d384b7; height: 20px">&nbsp;</span>
                 </td>
-                <td class="day" 
+                <td class="day" width="40" 
                     style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
                 </td>
                 <td class="day"
-                    style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
+                    width="40" style="padding: 0 5px 5px 0; width: 40px; font-weight: 300; margin: 0; text-align: left">&nbsp;
                 </td>
             </tr>
         </tbody>
